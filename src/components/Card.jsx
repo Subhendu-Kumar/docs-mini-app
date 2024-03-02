@@ -9,6 +9,7 @@ function Card({ data, icon, reference }) {
       drag
       dragConstraints={reference}
       whileDrag={{ scale: 1.2 }}
+      dragElastic={.1}
       className="relative w-60 h-72 bg-zinc-600 rounded-[25px] text-white py-5 px-5 overflow-hidden"
     >
       <img src={icon} alt="" className="size-6" />
