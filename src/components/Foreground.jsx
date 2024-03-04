@@ -45,7 +45,7 @@ function Foreground() {
   return (
     <div
       ref={ref}
-      className="fixed p-44 flex flex-wrap gap-10 top-0 left-0 w-full h-screen z-[3]"
+      className="absolute p-4 sm:p-10 md:p-20 lg:p-32 xl:p-40 flex flex-wrap gap-10 justify-center items-center top-0 left-0 w-full h-screen z-[3]"
     >
       {data.map((item, index) => {
         return <Card key={index} data={item} icon={icon} reference={ref} />;
