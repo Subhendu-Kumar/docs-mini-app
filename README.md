@@ -29,7 +29,7 @@ Make sure you have Node.js and npm installed on your machine.
 ### Installation
 
 1. Clone the repo
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone (https://github.com/Subhendu-Kumar/docs-mini-app/)
 2. Install NPM packages
    npm install
 3. Start the development server
